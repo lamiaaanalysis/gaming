@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Diplomata+SC&family=Staatliches&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: Staatliches;
+    color: #FD96F9;
+    font-size: 24px;
+}
+a:hover{
+    color: #C2E083;
+}
+
+h1{
+    font-family: Creepster;
+    color: #D87CF9;
+    font-size: 64px;
+    font-weight: 400;
+}
+.main_container{
+    margin: 50px;
+    
+}
+nav{
+    display: flex;
+    align-content: space-between;
+    margin: 30px;
+    
+}
+.nav_bar{
+    display: flex;
+    align-content: space-between;
+    margin-left: 750px;
+}
+.nav_item{
+    padding-left: 150px;
+    padding-top: 5px;
+}
+main{
+    display: flex;
+}
+.main_image{
+    margin-left: 250px;
+    
+}
+.main_text{
+    margin: 20px;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.main_text h1{
+    font-size: 155px;
+}
+
+section{
+    display: flex;
+}
+
+.container_text{
+    width: 70%;
+    margin: 170px;
+}
+
+.container_header{
+    margin: 5px;
+    padding-bottom: 60px;
+}
+.container_text a{
+    margin: 5px;
+    padding-left: 50px;
+    font-size: 50px;
+}
+.pink{
+    color: #FD96F9;
+}
+.pink:hover{
+    color: #C2E083;
+}
+.orange{
+    color: #d4b27e;
+}
+.orange:hover{
+    color: #b6bae2;
+}
+.yellow{
+    color: yellow;
+}
+.yellow:hover{
+    color: rgb(49, 193, 230);
+}
+.green{
+    color: #85e08c;
+}
+.green:hover{
+    color: #ffd61f;
+}
+.bleu{
+    color: #17c1df;
+}
+.bleu:hover{
+    color: #ffbbea;
+}
+.purple{
+    color: #c8a3eb;
+}
+.purple:hover{
+    color: #6febd0;
+}
+#popular_game .container_header{
+   padding-left: 500px;
+}
+.game{
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 13px solid  #FD96F9;
+    border-radius: 10%;
+}
+
+.game:hover{
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 13px double  #f3fd96;
+    border-radius: 10%;
+    box-shadow: 5px 10px;
+}
+
+
+.game_img{
+    margin-left: 58px;
+    width: 220px;
+}
+.game-header{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    color: azure;
+}
+.game-header:hover{
+    color: #17c1df;
+    font-size: 45px;
+}
+
+.rating-box{
+    width: 320px;
+    height: 40px;
+    border: 1px solid  #C2E083;
+    border-radius: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-content: space-between;
+}
+
+.rating-box:hover{
+    border: 2px solid  #eea3d8;
+
+}
+
+
+
+.star-item{
+   margin-left: 13px;
+   margin-top: 5px;
+    
+}
+.game_descrition{
+    color: #ffbbea;
+    width: 250px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.game_descrition:hover{
+    color: aliceblue;
+}
+
+.subscribe_box{
+    width: 85%;
+    height: 8cm;
+    border: 10px solid  #dae486;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 130px;
+}
+.subscribe_box:hover{
+    border: 10px double #D87CF9;
+}
+.container_header_subscribe{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.container_header_subscribe:hover{
+    color: #dae486;
+}
+.play_btn{
+    width: 300px;
+    margin-left: 550px;
+    border: 3px solid  #dae486;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.play_txt{
+    margin-left: 30px;
+    color: #6febd0;
+}
+.play_txt:hover{
+    margin-left: 30px;
+    color: #eb6fa9;
+}
+
+footer{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.footer_links{
+    width: 90%;
+    display: flex;
+}
+.footer_items{
+    padding-left: 35px;
+
+}
+.footer_items a {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.white_line{
+    margin-top: 25px;
+    border: 0.1px solid  aliceblue;
+    width: 90%;
+    height: 0.5px;
+}
+.copyright_txt{
+    display: flex;
+    margin-top: 10px;
+}
+.txt{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 6px;
+}
